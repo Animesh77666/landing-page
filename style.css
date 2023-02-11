@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(182, 247, 225);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.logo{
+    padding: 10px;
+}
+.links{
+    display: flex;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
